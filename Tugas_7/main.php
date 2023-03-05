@@ -103,9 +103,9 @@
                                 <td><?php echo $airlane?></td>
                                 <td><?php echo $depart?></td>
                                 <td><?php echo $destination?></td>
-                                <td id="rupiah"><?php echo rupiah($price) ?></td>
-                                <td id="rupiah"><?php echo rupiah($tax) ?></td>
-                                <td id="rupiah"><?php echo rupiah($total) ?></td>
+                                <td><?php echo rupiah($price) ?></td>
+                                <td><?php echo rupiah($tax) ?></td>
+                                <td><?php echo rupiah($total) ?></td>
                             </tr>
                             <?php
                                 }
