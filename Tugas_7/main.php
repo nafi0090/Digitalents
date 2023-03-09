@@ -91,9 +91,7 @@
                         </thead>
                         <tbody>
                             <!-- Looping for retrieve all data -->
-                            <?php 
-                            asort($data);
-                            foreach($data as $data){
+                            <?php foreach($data as $data){
                                 $airlane = $data[0];
                                 $depart = $data[1];
                                 $destination = $data[2];
